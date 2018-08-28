@@ -2,7 +2,7 @@
 
 This is an upgraded version of Portfolio created with UIkit and Bootstrap while also including HTML and CSS as the base language for this program. 
 
-[Portfolio](file:///Users/muhammadawais/Desktop/New-Portfolio/index.html)
+[Portfolio](https://mawais54013.github.io/New-Portfolio/)
 
 # Images
 ![Main-Page](assets/images/Screen7.png)
