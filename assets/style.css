@@ -1,0 +1,248 @@
+html,body
+{
+	 /* background-image: url("images/low-poly00.jpg");  */
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/low-poly00.jpg"), url("images/low-poly01.jpg") ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat, repeat;
+	height: 123%;
+	 /* opacity:70;  */
+}
+.social
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333333; */
+}
+#nav1
+{
+	background-color: black;
+}
+#list1
+{
+	float:left;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+#list2
+{
+	float:left;
+	padding-top: 0px;
+	
+}
+li a {
+	display: block;
+    color: white;
+	text-align: center;
+	padding-left: 0px;
+    padding: 10px;
+	text-decoration: none;
+	background-color: black;
+}
+#head2
+{
+	font-weight: 700;
+	color: #1e75f6;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+#head3
+{
+	color: #1e75f6;
+}
+.footer
+{
+	position: fixed;
+	left: 0;
+   	bottom: 0;
+	width: 100%;
+	height: 5%;
+    background-color: rgb(44, 47, 63);
+	text-align: center;
+
+}
+#span1
+{
+	color: white;
+}
+#p1
+{
+	color: white;
+}
+#link1
+{
+	color: white;
+}
+#link2
+{
+	color: white;
+}
+#link3
+{
+	color: white;
+}
+#link4
+{
+	color: white;
+}
+#link5
+{
+	color: white;
+}
+li
+{
+	padding: 2px 0 0 30px;
+}
+#area1
+{
+	padding: 15px 15px 15px 15px;
+}
+#area2
+{
+	text-align: center;
+}
+#area3
+{
+	background-color:rgba(212,212,212,.2);
+    -moz-transition:background-color 1.5s ease;
+    -webkit-transition:background-color 1.5s ease;
+	transition:background-color 1.5s ease;
+	color: rgb(182, 179, 179);
+	font-weight: 700;
+}
+#area4
+{
+	background-color:rgba(0, 0, 0, 0.781);
+    -moz-transition:background-color 1.5s ease;
+    -webkit-transition:background-color 1.5s ease;
+	transition:background-color 1.5s ease;
+	color: rgb(182, 179, 179);
+	font-weight: 400;
+}
+#area5
+{
+	background-color:rgba(0, 0, 0, 0.781);
+    -moz-transition:background-color 1.5s ease;
+    -webkit-transition:background-color 1.5s ease;
+	transition:background-color 1.5s ease;
+	color: rgb(182, 179, 179);
+	font-weight: 400;
+	text-align: center;
+}
+#head4
+{
+	color: #1e75f6;
+	font-weight: 700;
+}
+#head5
+{
+	color:white;
+}
+#list1
+{
+	background-color: rgb(10, 10, 175);
+	font-weight: 700;
+	color: white;
+}
+#list2
+{
+	background-color:rgba(56, 56, 56, 0.932);
+    -moz-transition:background-color 1.5s ease;
+    -webkit-transition:background-color 1.5s ease;
+	transition:background-color 1.5s ease;
+	color: rgb(182, 179, 179);
+	font-weight: 400;
+
+}
+#list3
+{
+	background-color:rgba(15, 15, 15, 0.932);
+    -moz-transition:background-color 1.5s ease;
+    -webkit-transition:background-color 1.5s ease;
+	transition:background-color 1.5s ease;
+	color: rgb(182, 179, 179);
+	font-weight: 400;
+}
+label
+{
+	float: left;
+}
+@media screen and (max-width: 770px)
+{
+	html,body
+	{
+		/* background-image: url("images/low-poly00.jpg");  */
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/low-poly00.jpg"), url("images/low-poly01.jpg") ;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat, repeat;
+		height: 130%;
+		/* opacity:70;  */
+	}
+}
+@media only screen and (max-width: 760px)
+{
+	html.resume
+	{
+		/* background-image: url("images/low-poly00.jpg");  */
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/low-poly00.jpg"), url("images/low-poly01.jpg") ;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat, repeat;
+		height: 90%;
+		/* opacity:70;  */
+	}
+	html.index,body.index
+	{
+		/* background-image: url("images/low-poly00.jpg");  */
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/low-poly01.jpg") ;
+		background-size: cover;
+		background-position: bottom;
+		background-repeat: no-repeat, repeat;
+		height: 185%;
+
+		/* opacity:70;  */
+	}
+	html.contact,body.contact
+	{
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/low-poly03.jpg") ;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat, repeat;
+		height: 110%;
+	}
+	html.about,body.about
+	{
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/low-poly01.jpg") ;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat, repeat;
+		height: 140%;
+	}
+	#area3{
+		color: black;
+	}
+	html,body
+	{
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/low-poly00.jpg"), url("images/low-poly01.jpg") ;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat, repeat;
+		height: 200%;
+	}
+
+}
+@media only screen and (max-width: 400px)
+{
+	html.portfolio,body.portfolio
+	{
+		background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/low-poly00.jpg"), url("images/low-poly01.jpg") ;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat, repeat;
+		height: 180%;
+	}
+}
