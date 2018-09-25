@@ -16,6 +16,8 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
 
+    <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 </head>
 
@@ -66,35 +68,51 @@
         <div id="tab-container" class="black-bg-solid">
             <div class = "container">
                 <div class ="row">
-                    <div class="col-md-12" id="area5">
+                    <div class="col-md-6" id="area5">
                             <form>
                             <div class="form-group">
+                                <br>
                               <label for="name">Name</label>
-                              <input type="name" class="form-control" id="name" aria-describedby="nameex" placeholder="John Smith">
+                              <input type="name" class="form-control" id="inputName" aria-describedby="nameex" placeholder="John Smith">
                             </div>
                             <div class="form-group">
                               <label for="email1">Email</label>
-                              <input type="email" class="form-control" id="name" placeholder="example@gmail.com">
+                              <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
                             </div>
                             <div class="form-group">
                                     <label for="phone">Phone Here</label>
-                                    <input type="phone" class="form-control" id="name" placeholder="(999)999-9999">
+                                    <input type="phone" class="form-control" id="inputPhone" placeholder="(999)999-9999">
                                   </div>
                             <div class="form-group">
                               <label for ="comment">Message</label>
-                              <input type="comment" class="form-control" id="name" style="height:140px">
+                              <input type="comment" class="form-control" id="inputMessage" style="height:140px">
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary" id="add-message-btn">Submit</button>
                           </form>
+                          <br>
+                    </div>
+                    <br>
+                    <div class = "col-md-1"></div>
+                    <div class="col-md" id="area5">
+                        <h2 id="span2">Contact Info</h2>
+                        <h3 id="head9">Please feel free to contact me in any of the following methods</h3>
+                        <h3 id="head9">Mail Address: 2020 Santa Clara ave, Alameda, CA, 94501</h3>
+                        
+                        <h3 id="head9">Phone: (510)701-2921</h3>
+                        
+                        <h3 id="head9">Email: mawais54013@outlook.com</h3>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <footer class="footer">
             <div class="container">
                 <span class="text-muted" style="color: black!important">Copyright</span>
             </div>
         </footer>
+    <script src="assets/contact.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit-icons.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
