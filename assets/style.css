@@ -237,7 +237,7 @@ li
 }
 #area3
 {
-	background-color:rgba(212,212,212,.2);
+	background-color:rgba(7, 7, 7, 0.8);
     -moz-transition:background-color 1.5s ease;
     -webkit-transition:background-color 1.5s ease;
 	transition:background-color 1.5s ease;
