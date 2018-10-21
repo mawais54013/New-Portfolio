@@ -1,0 +1,56 @@
+#p1
+{
+    text-align: left;
+}
+#headT1
+{
+    color: white;
+    text-align: left;
+}
+#headT2
+{
+    color: white;
+    text-align: center;
+}
+#listT2
+{
+    text-align: center;
+    list-style-position: inside;
+    list-style-type:none
+}
+#listT1
+{
+    text-align: left;
+}
+html.hangman, body.hangman
+{
+    height: 120%;
+}
+html.psychic, body.psychic
+{
+    height: 120%;
+}
+html.gem, body.gem
+{
+    height: 125%;
+}
+
+@media only screen and (max-width: 760px)
+{
+    html.hangman, body.hangman
+    {
+        height: 130%;
+    }
+    html.psychic, body.psychic
+    {
+        height: 135%;
+    }
+    html.gem, body.gem
+    {
+        height: 140%;
+    }
+    html.liri, body.liri
+    {
+        height: 150%;
+    }
+}
