@@ -465,6 +465,21 @@ label
 	}
 
 }
+@media only screen and (max-width: 490px)
+{
+	html.index,body.index
+	{
+		height: 190%;
+	}
+	.social
+	{
+		margin-left: 50px;
+	}
+	#listText
+	{
+		color: #1e75f6;
+	}
+}
 @media only screen and (max-width: 440px)
 {
 	html.portfolio,body.portfolio
