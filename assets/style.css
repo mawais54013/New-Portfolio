@@ -508,11 +508,15 @@ label
 	}
 	.social
 	{
-		margin-left: 50px;
+		margin-left: 0px;
 	}
 	#listText
 	{
 		color: #1e75f6;
+	}
+	.LI-profile-badge
+	{
+		margin-left: 50px;
 	}
 }
 /* @media only screen and (max-width: 400px)
