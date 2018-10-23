@@ -518,10 +518,10 @@ label
 	{
 		margin-left: 65px;
 	}
-	html.contact, body.contact
+	/* html.contact, body.contact
 	{
 		height: 155%;
-	}
+	} */
 }
 /* @media only screen and (max-width: 400px)
 {
