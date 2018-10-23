@@ -515,3 +515,10 @@ label
 		color: #1e75f6;
 	}
 }
+@media only screen and (max-width: 400px)
+{
+	html.index, body.index
+	{
+		height: 100%;
+	}
+}
