@@ -475,6 +475,10 @@ label
 		background-repeat: no-repeat, repeat;
 		height: 260%;
 	}
+	html.index, body.index
+	{
+		height: 230%;
+	}
 	#iframe1
 	{
 		width: 370px;
@@ -486,5 +490,13 @@ label
 	html.portfolio,body.portfolio
 	{
 		height: 318%;
+	}
+	.social
+	{
+		margin-left: 50px;
+	}
+	#listText
+	{
+		color: #1e75f6;
 	}
 }
