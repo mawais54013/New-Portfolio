@@ -465,7 +465,7 @@ label
 	}
 
 }
-@media only screen and (max-width: 490px)
+/* @media only screen and (max-width: 490px)
 {
 	html.index,body.index
 	{
@@ -479,7 +479,7 @@ label
 	{
 		color: #1e75f6;
 	}
-}
+} */
 @media only screen and (max-width: 440px)
 {
 	html.portfolio,body.portfolio
