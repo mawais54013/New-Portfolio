@@ -357,6 +357,41 @@ label
 	{
 		margin-left: 75px;
 	}
+	html.index, body.index
+	{
+		height: 125%;
+	}
+	html.about, body.about
+	{
+		height: 150%;
+	}
+	html.portfolio, body.portfolio
+	{
+		height: 187%;
+	}
+	html.resume, body.resume
+	{
+		height: 167%;
+	}
+	@media screen and (max-width: 1300px)
+	{
+		html.index, body.index
+		{
+			height: 137%;
+		}
+		html.about, body.about
+		{
+			height: 167%;
+		}
+		html.portfolio, body.portfolio
+		{
+			height: 213%;
+		}
+		html.resume, body.resume
+		{
+			height: 187%;
+		}
+	}	
 @media screen and (max-width: 1200px)
 {
 	html.index, body.index
@@ -379,12 +414,21 @@ label
 @media screen and (max-width: 900px)
 {
 	html.contact, html.contact{
-		height: 150%;
+		height: 180%;
+	}
+	html.index, body.index
+	{
+		height: 160%;
+	}
+	html.about, body.about
+	{
+		height: 185%;
 	}
 	html.portfolio, body.portfolio
 	{
-		height: 180%;
+		height: 195%;
 	}
+
 }
 
 @media screen and (max-width: 770px)
