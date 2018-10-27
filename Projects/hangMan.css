@@ -35,6 +35,26 @@ html.gem, body.gem
     height: 125%;
 }
 
+@media only screen and (max-width: 1200px)
+{
+    html.hangman, body.hangman
+    {
+        height: 130%;
+    }
+    html.psychic, body.psychic
+    {
+        height: 132%;
+    }
+    html.gem, body.gem
+    {
+        height: 133%;
+    }
+    html.liri, body.liri
+    {
+        height: 140%;
+    }
+}
+
 @media only screen and (max-width: 760px)
 {
     html.hangman, body.hangman

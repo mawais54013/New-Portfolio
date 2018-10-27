@@ -357,11 +357,23 @@ label
 	{
 		margin-left: 75px;
 	}
-@media screen and (max-width: 1190px)
+@media screen and (max-width: 1200px)
 {
+	html.index, body.index
+	{
+		height: 140%;
+	}
+	html.about, body.about
+	{
+		height: 170%;
+	}
 	html.portfolio, body.portfolio
 	{
-		height: 185%;
+		height: 215%;
+	}
+	html.resume, body.resume
+	{
+		height: 190%;
 	}
 }
 @media screen and (max-width: 900px)
