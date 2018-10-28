@@ -411,6 +411,13 @@ label
 		height: 190%;
 	}
 }
+@media screen and (max-width: 1000px)
+{
+	html.portfolio, body.portfolio
+	{
+		height: 205%;
+	}
+}
 @media screen and (max-width: 900px)
 {
 	html.contact, html.contact{
@@ -521,21 +528,25 @@ label
 	}
 
 }
-/* @media only screen and (max-width: 490px)
+ @media only screen and (max-width: 700px)
 {
 	html.index,body.index
 	{
+		height: 210%;
+	}
+	html.about,body.about
+	{
+		height: 235%;
+	}
+	html.portfolio,body.portfolio
+	{
+		height: 367%;
+	}
+	html.resume, body.resume
+	{
 		height: 200%;
 	}
-	.social
-	{
-		margin-left: 50px;
-	}
-	#listText
-	{
-		color: #1e75f6;
-	}
-} */
+} 
 @media only screen and (max-width: 490px)
 {
 	html.portfolio,body.portfolio
@@ -544,11 +555,15 @@ label
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat, repeat;
-		height: 260%;
+		/* height: 500%; */
 	}
 	html.index, body.index
 	{
-		height: 198%;
+		height: 205%;
+	}
+	html.resume, body.resume
+	{
+		height: 205%;
 	}
 	#iframe1
 	{
@@ -560,7 +575,7 @@ label
 	}
 	html.portfolio,body.portfolio
 	{
-		height: 318%;
+		height: 355%;
 	}
 	.social
 	{
@@ -583,10 +598,18 @@ label
 		height: 155%;
 	} */
 }
-/* @media only screen and (max-width: 400px)
+@media only screen and (max-width: 400px)
 {
-	html.index, body.index
+	html.portfolio,body.portfolio
 	{
-		height: 210%;
+		height: 335%;
 	}
-} */
+	#head7
+	{
+		font-size: 14px;
+	}
+	html.resume, body.resume
+	{
+		height: 220%;
+	}
+}

@@ -74,3 +74,22 @@ html.gem, body.gem
         height: 150%;
     }
 }
+@media only screen and (max-width: 490px)
+{
+    html.hangman, body.hangman
+    {
+        height: 150%;
+    }
+    html.psychic, body.psychic
+    {
+        height: 145%;
+    }
+    html.gem, body.gem
+    {
+        height: 147%;
+    }
+    html.liri, body.liri
+    {
+        height: 160%;
+    }
+}
