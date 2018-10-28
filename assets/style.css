@@ -377,45 +377,45 @@ label
 	{
 		html.index, body.index
 		{
-			height: 137%;
+			height: 132%;
 		}
 		html.about, body.about
 		{
-			height: 167%;
+			height: 160%;
 		}
 		html.portfolio, body.portfolio
 		{
-			height: 213%;
+			height: 205%;
 		}
 		html.resume, body.resume
 		{
-			height: 187%;
+			height: 180%;
 		}
 	}	
 @media screen and (max-width: 1200px)
 {
 	html.index, body.index
 	{
-		height: 140%;
+		height: 130%;
 	}
 	html.about, body.about
 	{
-		height: 170%;
+		height: 160%;
 	}
 	html.portfolio, body.portfolio
 	{
-		height: 215%;
+		height: 205%;
 	}
 	html.resume, body.resume
 	{
-		height: 190%;
+		height: 180%;
 	}
 }
 @media screen and (max-width: 1000px)
 {
 	html.portfolio, body.portfolio
 	{
-		height: 205%;
+		height: 195%;
 	}
 }
 @media screen and (max-width: 900px)
@@ -425,15 +425,15 @@ label
 	}
 	html.index, body.index
 	{
-		height: 160%;
+		height: 150%;
 	}
 	html.about, body.about
 	{
-		height: 185%;
+		height: 175%;
 	}
 	html.portfolio, body.portfolio
 	{
-		height: 195%;
+		height: 185%;
 	}
 
 }
@@ -532,19 +532,19 @@ label
 {
 	html.index,body.index
 	{
-		height: 210%;
+		height: 200%;
 	}
 	html.about,body.about
 	{
-		height: 235%;
+		height: 225%;
 	}
 	html.portfolio,body.portfolio
 	{
-		height: 367%;
+		height: 348%;
 	}
 	html.resume, body.resume
 	{
-		height: 200%;
+		height: 195%;
 	}
 } 
 @media only screen and (max-width: 490px)
@@ -559,11 +559,11 @@ label
 	}
 	html.index, body.index
 	{
-		height: 205%;
+		height: 195%;
 	}
 	html.resume, body.resume
 	{
-		height: 205%;
+		height: 197%;
 	}
 	#iframe1
 	{
@@ -575,7 +575,7 @@ label
 	}
 	html.portfolio,body.portfolio
 	{
-		height: 355%;
+		height: 335%;
 	}
 	.social
 	{
@@ -602,7 +602,7 @@ label
 {
 	html.portfolio,body.portfolio
 	{
-		height: 335%;
+		height: 325%;
 	}
 	#head7
 	{
@@ -610,6 +610,6 @@ label
 	}
 	html.resume, body.resume
 	{
-		height: 220%;
+		height: 205%;
 	}
 }
