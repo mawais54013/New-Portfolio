@@ -621,3 +621,12 @@ label
 		height: 205%;
 	}
 }
+#updatedPort
+{
+	border: 5px solid red;
+	text-align: center;
+}
+#notice
+{
+	color: red;
+}
