@@ -1,5 +1,8 @@
 # New-Portfolio
 
+This portfolio is my old version, please click on the link below to be taken to my updated portfolio. 
+[New-Portfolio](https://mawais54013.github.io/MAwais/);
+
 This is an upgraded version of Portfolio created with UIkit and Bootstrap while also including HTML and CSS as the base language for this program. 
 
 [Portfolio](https://mawais54013.github.io/New-Portfolio/)
